@@ -1,25 +1,36 @@
 {
-    "name": "IVAR Chain Mainnet",
-    "chain": "IVAR",
-    "icon": "ivar",
-    "rpc": [
-      "https://mainnet-rpc.ivarex.com"
-    ],
-    "faucets": [
-      "https://faucet.ivarex.com/"
-    ],
-    "nativeCurrency": {
-      "name": "Ivar",
-      "symbol": "IVAR",
-      "decimals": 18
-    },
-    "infoURL": "https://ivarex.com",
-    "shortName": "ivar",
-    "chainId": 88888,
-    "networkId": 88888,
-    "explorers": [{
-      "name": "ivarscan",
-      "url": "https://ivarscan.com",
+  "name": "Chiliz Chain Mainnet",
+  "chain": "CHZ",
+  "icon": "chilizchain",
+  "rpc": [
+    "https://rpc.chiliz.com",
+    "https://rpc.ankr.com/chiliz",
+    "https://chiliz.publicnode.com"
+  ],
+  "faucets": [
+    "https://spicy-faucet.chiliz.com",
+    "https://tatum.io/faucets/chiliz"
+  ],
+  "nativeCurrency": {
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "decimals": 18
+  },
+  "infoURL": "https://chiliz.com",
+  "shortName": "chzmainnet",
+  "chainId": 88888,
+  "networkId": 88888,
+  "redFlags": ["reusedChainId"],
+  "explorers": [
+    {
+      "name": "chiliscan",
+      "url": "https://chiliscan.com",
       "standard": "EIP3091"
-    }]
+    },
+    {
+      "name": "chilizscan",
+      "url": "https://scan.chiliz.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
